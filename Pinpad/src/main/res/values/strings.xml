@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+ <!--custom parameters for pinpad-->
+
+ <!--Heartland-->
+ <!--<string name="pinpad_ip_address">http://192.168.1.212:10009?</string>-->
+ <!--D200 Terminal ID -->
+ <!--<string name="pinpad_ip_address">http://192.168.1.117:10009?</string>-->
+ <!--velocity-->
+ <string name="pinpad_ip_address">http://192.168.1.213:10009?</string>
+
+
+    <!--transaction array-->
+    <!--remember to change the position numbers in constants if change the order of the array-->
+    <string-array name="transactions_arrays">
+        <item>Sale</item>
+        <item>Authorize</item>
+        <!--<item>Adjust Tip</item>-->
+        <!--<item>Adjust by Ref</item>-->
+        <!--<item>Capture</item>-->
+        <!--<item>Undo/Void</item>-->
+        <!--<item>Independent Return</item>-->
+        <!--<item>Adjust local</item>-->
+        <!--<item>Adjust by Reference</item>-->
+        <!--<item>Close Batch</item>-->
+        <!--<item>History Report</item>-->
+        <!--<item>Init</item>-->
+        <!--<item>Reboot</item>-->
+    </string-array>
+
+    <!--debit credit array-->
+    <string-array name="debit_credit_array">
+        <item>Credit</item>
+        <item>Debit</item>
+    </string-array>
+
+    <!--processor type array-->
+    <string-array name="processor_type_array">
+        <item>NAB</item>
+        <item>PAX</item>
+    </string-array>
+
+
+    <!-- prompt error -->
+    <string name="payment_process_prompt">Please wait while processing</string>
+    <string name="do_not_press_prompt">Please do not press any buttons</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="time_out_prompt">Please check connectivity</string>
+    <string name="try_again_prompt">Please try again</string>
+    <string name="canceled_prompt">Action canceled by user or timed out. Please try again</string>
+    <string name="large_tip">Tip exceeds the limit!</string>
+    <string name="invalid_amount">Invalid amount!</string>
+    <string name="approved_trans">Approved! </string>
+    <string name="check_connection">Please check connectivity and try again!</string>
+    <string name="connection_err">Connection error</string>
+
+    <!--fragment dialog strings-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="email">Email</string>
+    <string name="print">Print</string>
+    <string name="both">Both</string>
+
+
+
+    <string name="app_name">ASTPinpad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="TransactionName_prompt">Choose a transaction name</string>
+    <string name="state_prompt">Choose a state</string>
+    <string name="cardType_prompt">Choose a card type</string>
+    <string name="month_prompt">Choose a month</string>
+    <string name="year_prompt">Choose a year</string>
+    <string name="CurrencyCode_prompt">Choose a currencyCode</string>
+
+    <string-array name="TransactionName_arrays">
+       <item>Verify</item>
+       <item>Authorize W/Token</item>
+       <item>Authorize W/OToken</item>
+       <item>P2PE Authorize</item>
+       <item>AuthorizeAndCapture W/Token</item>
+       <item>AuthorizeAndCapture W/OToken</item>
+       <item>P2PE AuthorizeAndCapture</item>
+       <item>Capture</item>
+       <item>Undo</item>
+       <item>Adjust</item>
+       <item>ReturnById</item>
+       <item>ReturnUnlinked W/Token</item>
+       <item>ReturnUnlinked W/OToken</item>
+       <item>P2PE ReturnUnlinked</item>
+       <item>QueryTransactionalDetails</item>
+      <item>CaptureAll</item>
+    </string-array>
+
+    <string-array name="state_arrays">
+       <item>Colorado</item>
+       <item>Newyork</item>
+    </string-array>
+
+    <string-array name="state_names">
+      <item>CO</item>
+      <item>NY</item>
+    </string-array>
+
+    <string-array name="cardType_arrays">
+      <item>Visa</item>
+      <item>MasterCard</item>
+      <item>Discover</item>
+      <item>AmericanExpress</item>
+    </string-array>
+
+    <string-array name="entryMode_arrays">
+        <item>Keyed</item>
+        <item>TrackDataFromMSR</item>  
+    </string-array>
+
+    <string-array name="workflowId_arrays">
+        <item>8D9DE00001(Normal)</item>
+        <item>BBBAAA0001(P2PE)</item>
+         <item>A39DF00001(CaptureAll)</item>
+    </string-array>
+
+    <string-array name="workflowId_names">
+        <item>8D9DE00001</item>
+        <item>BBBAAA0001</item>
+         <item>A39DF00001</item>
+    </string-array>
+
+    <string-array name="appProfileId_arrays">
+        <item>15464(Normal)</item>
+        <item>14560(P2PE)</item>
+        <item>15464(CaptureAll)</item>
+    </string-array>
+
+    <string-array name="appProfileId_names">
+        <item>15464</item>
+        <item>14560</item>
+        <item>15464</item>
+    </string-array>
+
+    <string-array name="month_arrays">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="year_arrays">
+         <item>2013</item>
+         <item>2014</item>
+         <item>2015</item>
+         <item>2016</item>
+         <item>2017</item>
+         <item>2018</item>
+         <item>2019</item>
+         <item>2020</item>
+         <item>2021</item>
+         <item>2022</item>
+         <item>2023</item>
+    </string-array>
+
+    <string-array name="CurrencyCode_arrays">
+      <item>USD</item>
+      <item>INR</item>
+    </string-array>
+      
+
+
+    <!--signature parameters-->
+    <string name="hint_sign">Get Signature</string>
+    <string name="sign_here_title">Sign Here</string>
+    <string name="hint_cancel">Cancel</string>
+    <string name="hint_clear">Clear</string>
+    <string name="hint_save">Accept</string>
+
+    <string name="settings_title">Administrator Settings</string>
+    <string name="merchant_id">Merchant ID</string>
+    <string name="merchant_id_data">AST POS TEST</string>
+    <string name="pinpad_ip">Pinpad IP Address</string>
+    <string name="pinpad_ip_data">xxx.xxx.xxx.xxx</string>
+    <string name="transaction_type_check">Debit/Credit</string>
+    <string name="transaction_name">Transaction Name</string>
+    <string name="processor_type">Processor</string>
+    <string name="tip_threshold">Tip Threshold Factor</string>
+    <string name="tip_threshold_data">0-9</string>
+    <string name="pinging">Pinging pinpad...</string>
+    <string name="company_email">Gmail Account</string>
+    <string name="company_email_data">myemail@gmail.com</string>
+    <string name="company_pass">Gmail Password</string>
+    <string name="company_pass_data">password</string>
+
+    <string name="debit_credit_prompt">Choose Debit or credit</string>
+    <string name="checkbox_text">I understand that any changes may reflect the device performance</string>
+    <string name="save_text">Save</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="ping_text">Ping Pinpad</string>
+    <string name="ping_result">Ping result here</string>
+
+</resources>

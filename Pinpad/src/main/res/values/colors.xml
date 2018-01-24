@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--signature parameters-->
+    <color name="ColorPrimaryDark">#000000</color>
+    <color name="ColorPrimary">#0c0c0d</color>
+    <color name="BorderLineColor">#d2d2c6</color>
+    <color name="CanvasBackground">#ffffff</color>
+    <color name="EditTextColor">#e4e4e6</color>
+    <color name="TextViewColor">#9d9d9e</color>
+
+
+</resources>
